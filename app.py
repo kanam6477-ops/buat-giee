@@ -118,11 +118,12 @@ with st.expander("🎟️ Giee's Secret Coupons"):
         st.write(f"### KLAIM BERHASIL!")
         st.write(f"Kamu memilih: **{kupon_pilihan}**")
         st.write(f"KODE: GIEE-HAPPY-{random.randint(100, 999)}")
-        st.toast("Screenshot & kirim ke WhatsApp Mas ya!")
+        st.success("📸 Screenshot & kirim ke WhatsApp Mas ya!")
 
 st.markdown("---")
 
 st.caption("Made with ❤️ for Giee")
+
 
 
 
