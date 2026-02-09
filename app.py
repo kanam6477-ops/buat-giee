@@ -86,17 +86,17 @@ with st.expander("✨ Giee's Current Vibe"):
 
 # --- 4. DOSIS SAYANG (PENYEJUK HATI) ---
 with st.expander("💊 Dosis Sayang Harian"):
-    pujian = [
-        "Kamu itu alasan Mas semangat setiap hari. ❤️",
-        "Makasih ya udah lahir ke dunia dan ketemu Mas. 🌸",
-        "Gak ada yang bisa gantiin kamu di hati Mas. ✨",
-        "Giee itu hebat banget tau, Mas bangga sama kamu!",
-        "Jangan lupa senyum, karena senyummu dunia Mas. 🎀",
-        "I love you more than yesterday! 🚀",
-        "Makasih sudah selalu sabar bareng Mas ya. 🥰",
-        "Kamu adalah hal terbaik yang pernah Mas temuin. 🌙",
-        "Semesta emang baik banget bisa nemuin Mas sama kamu. 🌻",
-        "Apapun yang terjadi hari ini, Mas selalu ada di pihak kamu. 🛡️"
+ pujian = [
+        "Lagi apa? Ingat ya, ada Mas yang selalu bangga sama kamu. ❤️",
+        "Kalau capek, senderan ke Mas aja ya. Gak usah dipaksa. 🌸",
+        "Giee itu hebat banget tau, Mas beneran kagum sama cara kamu hadapi hari ini.",
+        "Meskipun hari ini berat, buat Mas kamu tetep yang paling juara. ✨",
+        "Jatah bahagia kamu hari ini sudah diambil belum? Kalau belum, sini Mas kasih. 🍦",
+        "Makasih ya sudah mau sabar dan terus bareng Mas sampai sekarang. 🥰",
+        "Apapun yang terjadi, Mas selalu di pihak kamu. No debat! 🛡️",
+        "Cuma mau bilang: Kamu cantik banget hari ini (dan tiap hari sih). 🌙",
+        "Jangan lupa minum air putih dan istirahat ya, kesayangan Mas. 🌻",
+        "Gak sabar pengen ketemu terus pamerin ke dunia kalau Mas punya kamu. 🎀"
     ]
     if st.button("Ambil Dosis Cinta"):
         st.write(f"## {random.choice(pujian)}")
@@ -123,3 +123,4 @@ with st.expander("🎟️ Giee's Secret Coupons"):
 st.markdown("---")
 
 st.caption("Made with ❤️ for Giee")
+
