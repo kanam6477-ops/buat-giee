@@ -10,6 +10,9 @@ st.set_page_config(page_title="Special for Giee", page_icon="🌸")
 # --- CSS CUSTOM: ANIMASI & TAMPILAN ---
 st.markdown("""
     <style>
+    header {visibility: hidden;}
+.stAppDeployButton {display:none;}
+footer {visibility: hidden;}
     .stApp { background-color: #fff0f5; }
     .stApp, .stMarkdown, p, label { color: #5d1432 !important; font-weight: 500; }
     
@@ -118,4 +121,5 @@ with st.expander("🎟️ Giee's Secret Coupons"):
         st.toast("Screenshot & kirim ke WhatsApp Mas ya!")
 
 st.markdown("---")
+
 st.caption("Made with ❤️ for Giee")
