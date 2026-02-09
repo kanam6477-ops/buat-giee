@@ -86,7 +86,7 @@ with st.expander("✨ Giee's Current Vibe"):
 
 # --- 4. DOSIS SAYANG (PENYEJUK HATI) ---
 with st.expander("💊 Dosis Sayang Harian"):
-     pujian = [
+    pujian = [
         "Lagi apa? Ingat ya, ada Mas yang selalu bangga sama kamu. ❤️",
         "Kalau capek, senderan ke Mas aja ya. Gak usah dipaksa. 🌸",
         "Giee itu hebat banget tau, Mas beneran kagum sama cara kamu hadapi hari ini.",
@@ -123,5 +123,6 @@ with st.expander("🎟️ Giee's Secret Coupons"):
 st.markdown("---")
 
 st.caption("Made with ❤️ for Giee")
+
 
 
